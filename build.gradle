@@ -42,6 +42,7 @@ dependencies {
 
 tasks.withType(Test) {
     useJUnitPlatform()
+    systemProperties(System.getProperties()) //For parameterization and work "gradle clean <testTag>"
 
     testLogging {
         lifecycle {
