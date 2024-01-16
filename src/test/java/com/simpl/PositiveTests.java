@@ -1,4 +1,4 @@
-package simpl;
+package com.simpl;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

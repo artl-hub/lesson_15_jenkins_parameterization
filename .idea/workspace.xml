@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17904a91-dcbc-465f-b84f-271464ea8abf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Properties/tests/SystemPropertiesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -27,15 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo-User/IdeaProjects/qa_guru/lesson_15_jenkins_parameterization/lesson_15_jenkins_parameterization/src/test&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Lenovo-User/IdeaProjects/qa_guru/lesson_15_jenkins_parameterization/lesson_15_jenkins_parameterization/src/test/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo-User\IdeaProjects\qa_guru\lesson_15_jenkins_parameterization\lesson_15_jenkins_parameterization\src\test\resources" />
       <recent name="C:\Users\Lenovo-User\IdeaProjects\qa_guru\lesson_15_jenkins_parameterization\lesson_15_jenkins_parameterization\src\test" />
       <recent name="C:\Users\Lenovo-User\IdeaProjects\qa_guru\lesson_15_jenkins_parameterization\lesson_15_jenkins_parameterization\src\test\java" />
     </key>
@@ -43,7 +51,7 @@
       <recent name="C:\Users\Lenovo-User\IdeaProjects\qa_guru\lesson_15_jenkins_parameterization\lesson_15_jenkins_parameterization" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.lesson_15_jenkins_parameterization [demoqa_test]">
+  <component name="RunManager" selected="Gradle.SystemPropertiesTests.systemPropertiesTest">
     <configuration name="PositiveTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -58,6 +66,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;simpl.PositiveTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemPropertiesTests.systemProperties1Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Properties.tests.SystemPropertiesTests.systemProperties1Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemPropertiesTests.systemPropertiesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Properties.tests.SystemPropertiesTests.systemPropertiesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -92,6 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SystemPropertiesTests.systemPropertiesTest" />
+        <item itemvalue="Gradle.SystemPropertiesTests.systemProperties1Test" />
         <item itemvalue="Gradle.lesson_15_jenkins_parameterization [demoqa_test]" />
         <item itemvalue="Gradle.PositiveTests" />
       </list>
