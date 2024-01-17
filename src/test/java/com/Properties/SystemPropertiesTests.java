@@ -41,7 +41,7 @@ public class SystemPropertiesTests {
     @Test
     @Tag("property")
     void systemProperties4Test() {
-       String browser = System.getProperty("browser", "mozilla");
+       String browser = System.getProperty("browser", "mozilla"); // устанавливается дефолтное значени
 
         System.out.println(browser); //
         //gradle property_test
@@ -67,6 +67,28 @@ public class SystemPropertiesTests {
 
 
     }
+
+    @Test
+    @Tag("main")
+    void systemPropertiesBaseUrl() {
+        String baseUrl = System
+                .getProperty("baseUrl", "https://demoqa.com");
+    }
+
+    @Test
+    @Tag("main")
+    void systemPropertiesBrowserSize() {
+        String browserSize = System
+                .getProperty("browserSize", "1920x1080");
+    }
+
+    @Test
+    @Tag("main")
+    void systemPropertiesRemoteBrowser() {
+        String remoteBrowser = System
+                .getProperty("remoteBrowser", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+    }
+
 
 
 }
