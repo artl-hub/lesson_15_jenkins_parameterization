@@ -23,9 +23,6 @@ import static io.qameta.allure.Allure.step;
 
 public class RegistrationRemoteTest {
 
-    private static String baseUrl;
-    private static String browserSize;
-    private static String remoteBrowser;
 
     @BeforeAll
     static void beforAll() {
