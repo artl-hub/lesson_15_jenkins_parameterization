@@ -33,6 +33,7 @@ public class RegistrationRemoteTest {
         Configuration.browserVersion = System.getProperty("browserVersion", "chrome (110.0)");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.remote = "https://user1:1234@" + System.getProperty("wdHost", "selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
