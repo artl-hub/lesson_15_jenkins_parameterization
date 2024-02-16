@@ -1,0 +1,16 @@
+{
+  "base": {
+     "project": "Some project name",
+    "environment": "qa.guru",
+    "comment": "some information @ArtemL999",
+    "reportLink": "https://jenkins.autotests.cloud/job/23-ArtemL999-hw_16_jenkins_notifications/1/",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6811568716:AAHMtsN8iuPLMOFETNkZJE8Ny1_1EWVIrfw",
+    "chat": "-1002093861135",
+    "replyTo": ""
+  }
+}

@@ -1,0 +1,23 @@
+6811568716:AAHMtsN8iuPLMOFETNkZJE8Ny1_1EWVIrfw
+
+https://api.telegram.org/bot6811568716:AAHMtsN8iuPLMOFETNkZJE8Ny1_1EWVIrfw/getUpdates
+
+-1002093861135
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1002093861135", "text": "Second message", "disable_notification": true}' https://api.telegram.org/bot6811568716:AAHMtsN8iuPLMOFETNkZJE8Ny1_1EWVIrfw/sendMessage
+
+java "-DconfigFile=./notifications/config.json" -jar ./notifications/allure-notifications-4.6.1.jar
+
+
+
+
+
+
+
+
+
+
+
+
+
+

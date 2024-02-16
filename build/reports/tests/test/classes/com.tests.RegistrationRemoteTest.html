@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - RegistrationRemoteTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>RegistrationRemoteTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.tests.html">com.tests</a> &gt; RegistrationRemoteTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.127s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="fillFormTest()"></a>
+<h3 class="failures">fillFormTest()</h3>
+<span class="code">
+<pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Requested environment is not available 
+Host info: host: 'MYCOMP', ip: '192.168.2.68'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+selenide.remote: https://user1:1234@selenoid.autotests.cloud/wd/hub
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: chrome (110.0), goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=&lt;-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: normal, selenoid:options: {enableVNC: true, enableVideo: true}, unhandledPromptBehavior: accept}]}]
+selenide.url: https://demoqa.com/automation-practice-form
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: chrome (110.0), goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=&lt;-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: normal, selenoid:options: {enableVNC: true, enableVideo: true}, unhandledPromptBehavior: accept}
+selenide.baseUrl: https://demoqa.com
+	at app//org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at app//org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at app//org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at app//com.codeborne.selenide.webdriver.RemoteDriverFactory.create(RemoteDriverFactory.java:24)
+	at app//com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:114)
+	at app//com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
+	at app//com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:76)
+	at app//com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+	at app//com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
+	at app//com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:52)
+	at app//com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:205)
+	at app//com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:190)
+	at app//com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:152)
+	at app//com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:130)
+	at app//com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
+	at app//com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:223)
+	at app//com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:71)
+	at app//com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
+	at app//com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+	at app//com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
+	at app//com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:69)
+	at app//com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+	at app//com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:102)
+	at app//com.codeborne.selenide.Selenide.open(Selenide.java:53)
+	at app//com.tests.RegistrationRemoteTest.lambda$fillFormTest$0(RegistrationRemoteTest.java:62)
+	at app//io.qameta.allure.Allure.lambda$step$0(Allure.java:113)
+	at app//io.qameta.allure.Allure.lambda$step$1(Allure.java:127)
+	at app//io.qameta.allure.Allure.step(Allure.java:181)
+	at app//io.qameta.allure.Allure.step(Allure.java:125)
+	at app//io.qameta.allure.Allure.step(Allure.java:112)
+	at app//com.tests.RegistrationRemoteTest.fillFormTest(RegistrationRemoteTest.java:61)
+	at java.base@17.0.7/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17.0.7/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.7/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: java.lang.IllegalStateException: No webdriver is bound to current thread: 1. You need to call open(url) first.
+		at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.lambda$currentThreadDriver$1(WebDriverThreadLocalContainer.java:180)
+		at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+		at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.currentThreadDriver(WebDriverThreadLocalContainer.java:179)
+		at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getWebDriver(WebDriverThreadLocalContainer.java:142)
+		at com.codeborne.selenide.WebDriverRunner.getWebDriver(WebDriverRunner.java:112)
+		at com.helpers.Attach.screenshotAs(Attach.java:19)
+		at com.tests.RegistrationRemoteTest.addAttachments(RegistrationRemoteTest.java:50)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at io.qameta.allure.junit5.AllureJunit5.processFixture(AllureJunit5.java:138)
+		at io.qameta.allure.junit5.AllureJunit5.interceptAfterEachMethod(AllureJunit5.java:124)
+		... 2 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">fillFormTest()</td>
+<td class="failures">2.127s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0</a> at 2 февр. 2024 г., 11:14:59</p>
+</div>
+</div>
+</body>
+</html>
